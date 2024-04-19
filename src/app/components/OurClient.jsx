@@ -74,7 +74,7 @@ const OurClient = () => {
                       width={86}
                       height={86}
                       className="w-full"
-                      alt="Cute Girl"
+                      alt={event.alt}
                     />
                   </div>
                   <div className="w-full px-3 bg-white shadow-[0px_2px_48px_0px_#00000014] pb-8 pt-14">

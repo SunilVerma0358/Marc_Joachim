@@ -24,8 +24,8 @@ export const Phone = () => {
           y2="16.1503"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0C5FD1" />
-          <stop offset="1" stop-color="#8703C5" />
+          <stop stopColor="#0C5FD1" />
+          <stop offset="1" stopColor="#8703C5" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_1_325"
@@ -35,8 +35,8 @@ export const Phone = () => {
           y2="29.7724"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#0C5FD1" />
-          <stop offset="1" stop-color="#8703C5" />
+          <stop stopColor="#0C5FD1" />
+          <stop offset="1" stopColor="#8703C5" />
         </linearGradient>
       </defs>
     </svg>

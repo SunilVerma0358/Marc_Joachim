@@ -5,13 +5,23 @@ import ConsultationLink from "./common/ConsultationLink";
 const Header = () => {
   return (
     <div
-      className="h-screen flex flex-col bg-cover 
+      className="h-screen flex flex-col bg-cover
       sm:bg-size bg-center max-md:bg-[url('../../public/assets/image/HeroImg.webp')] md:bg-[url('../../public/assets/image/HeroMainImg.webp')] bg-no-repeat"
     >
+      {" "}
+      <div className="hidden md:block absolute left-[-12%] xl:left-[-5%] md:top-[-45%] xl:top-[-38%] 2xl:top-[-30%] max-w-[533px] 2xl:max-w-[650px] rotate-[-25deg] z-0 ">
+        <Image
+          src="/assets/svg/Whatyou.svg"
+          width={533}
+          height={501}
+          className="w-full "
+          alt="whatyou img"
+        />
+      </div>
       <div>
         <NavMarc />
       </div>
-      <div className="flex flex-grow  justify-center items-center">
+      <div className="flex flex-grow  justify-center items-center relative z-2">
         <div className="container max-w-[1140px] 2xl:max-w-[1320px]">
           <div className="flex flex-wrap flex-row -mx-3">
             <div className="w-full md:w-7/12 lg:w-6/12 px-3">
@@ -55,7 +65,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      href=""
+                      href="#"
                       className=" font-Poppins font-medium text-sm sm:text-base leading-[160%] text-white pt-1"
                     >
                       mentale Trennung

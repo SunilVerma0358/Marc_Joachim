@@ -28,7 +28,7 @@ const WhatYou = () => {
             width={313}
             height={301}
             className="w-full opacity-30"
-            alt="flowerimg"
+            alt="flowerimgOne"
           />
         </div>
         <div className="max-w-[150px] sm:max-w-[313px] absolute left-[-20%] sm:left-[-5%] lg:left-[-12%] bottom-[10%] z-[-1]">
@@ -71,7 +71,7 @@ const WhatYou = () => {
                     width={224}
                     height={216}
                     className="w-full"
-                    alt="flowerimg"
+                    alt="flowerimg two"
                   />
                 </div>
               </div>
@@ -113,7 +113,7 @@ const WhatYou = () => {
                         src="/assets/image/message.webp"
                         width={50}
                         height={47}
-                        alt="messageimg"
+                        alt="messageimage"
                       />
                     </span>
                     <span className="bg-LinearBlue hover:bg-LinearBlue2 duration-300 ease-linear textBg font-Inter font-medium text-sm sm:text-base leading-[150%] ">

@@ -5,7 +5,6 @@ const LawyerCoach = () => {
     <div className="relative py-12 md:py-0">
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] pb-20">
         <div className="flex gap-2 items-center md:inline-block">
-          {" "}
           <div className=" border-b-2 border-b-orangeYellow border-l-2 border-l-orangeYellow w-40 md:w-7 md:h-40 mt-3"></div>
           <div className="font-Helvet font-normal text-2xl leading-[168%] md:translate-x-7 md:-translate-y-7 overflow-hidden md:inline-block">
             <p className="font-medium text-2xl sm:text-3xl lg:text-4xl md:-rotate-90 inline-block">
@@ -68,7 +67,12 @@ const LawyerCoach = () => {
                     Learn more about the agency
                   </span>
                   <span className="group-hover:translate-x-1 duration-300">
-                    <Image src="/assets/svg/Arrow.svg" width={39} height={0} />
+                    <Image
+                      src="/assets/svg/Arrow.svg"
+                      width={39}
+                      height={0}
+                      alt="Arrow"
+                    />
                   </span>
                 </div>
               </a>

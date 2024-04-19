@@ -87,11 +87,8 @@ const MindSet = () => {
               }}
             >
               {MapSwiper.map((props, index) => (
-                <SwiperSlide>
-                  <div
-                    key={index}
-                    className=" w-full px-3 bg-blue relative z-[1] pb-12"
-                  >
+                <SwiperSlide key={index}>
+                  <div className=" w-full px-3 bg-blue relative z-[1] pb-12">
                     <div
                       data-aos="zoom-in-down"
                       className=" flex flex-col justify-center min-h-[260px] sm:min-h-[448px] "

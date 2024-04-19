@@ -1,16 +1,12 @@
 "use client";
 import React, { useEffect } from "react";
 const Preloader = () => {
-  useEffect(
-    () => {
-      setTimeout(() => {
-        document.getElementById("preloader").classList.add("hidden");
-        document.body.classList.remove("overflow_hidden");
-      });
-    },
-    3500,
-    []
-  );
+  useEffect(() => {
+    setTimeout(() => {
+      document.getElementById("preloader").classList.add("hidden");
+      document.body.classList.remove("overflow_hidden");
+    });
+  }, [3500]);
   return (
     <div
       id="preloader"

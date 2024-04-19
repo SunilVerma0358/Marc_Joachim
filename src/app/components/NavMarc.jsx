@@ -34,6 +34,7 @@ const NavMarc = () => {
             <li key={index}>
               <a
                 href={event.ref}
+                onClick={setopen}
                 className="font-Helvet font-normal text-base text-black hover:text-[#8703C5] ease-linear duration-500 lg:text-white leading-[150%]"
               >
                 {event.link}

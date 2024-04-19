@@ -25,7 +25,7 @@ const TagetGroup = () => {
         <div className="container max-w-[1140px] 2xl:max-w-[1320px] max-md:flex items-center flex-col relative">
           <div
             data-aos="zoom-in-down"
-            className="bg-[#424242] bg-opacity-35 border border-[#FFFFFF26] max-w-[382px] p-[40px_37px_40px_32px]  "
+            className="bg-[#424242] bg-opacity-35 border backdrop-blur-sm border-[#FFFFFF26] max-w-[382px] p-[40px_37px_40px_32px]  "
           >
             <p className="font-Poppins font-normal text-sm sm:text-base text-white leading-[160%]">
               You have separated and have the feeling that you can never be
@@ -34,14 +34,14 @@ const TagetGroup = () => {
           </div>
           <div
             data-aos="zoom-in-down"
-            className="bg-[#424242] bg-opacity-35 border border-[#FFFFFF26] max-w-[382px] p-[40px_38px_40px_40px] mt-8  "
+            className="bg-[#424242] bg-opacity-35 border backdrop-blur-sm border-[#FFFFFF26] max-w-[382px] p-[40px_38px_40px_40px] mt-8  "
           >
             <p className="font-Poppins font-normal text-sm sm:text-base text-white leading-[160%] max-w-[303px]">
               How are you supposed to be able to let go of someone who is so
               entangled with your life? It's impossible, isn't it?
             </p>
           </div>
-          <div className="bg-[#003E92] bg-opacity-70 max-w-[382px] p-[40px_38px_40px_40px] md:p-[55px_24px] lg:p-[65px_28px_77px_39px] mt-8 md:absolute right-3 md:translate-y-[-55%] ">
+          <div className="bg-[#003E92] bg-opacity-70 backdrop-blur-sm max-w-[382px] p-[40px_38px_40px_40px] md:p-[55px_24px] lg:p-[65px_28px_77px_39px] mt-8 md:absolute right-3 md:translate-y-[-55%] ">
             <p className="font-Poppins font-normal text-sm sm:text-base text-white leading-[160%] max-w-[303px]">
               To understand how to let go of your partner, you need a detailed
               step-by-step action plan, which you will receive from me in a 1:1

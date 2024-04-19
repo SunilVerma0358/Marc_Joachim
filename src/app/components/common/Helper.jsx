@@ -88,6 +88,7 @@ export const Clients = [
     ceoTwo: "Ralph Edwards-CEO",
 
     ceoThree: "Darrell Steward-Head",
+    alt: "Cute Girl",
   },
   {
     headingOne:
@@ -99,6 +100,7 @@ export const Clients = [
     ceoTwo: "Ralph Edwards-CEO",
 
     ceoThree: "Darrell Steward-Head",
+    alt: "Cute Girl 1",
   },
   {
     headingOne:
@@ -110,17 +112,7 @@ export const Clients = [
     ceoTwo: "Ralph Edwards-CEO",
 
     ceoThree: "Darrell Steward-Head",
-  },
-  {
-    headingOne:
-      " Nec pellentesque aliquet diam eget sed mi ornare vulputate duis. Posuere id habitasse quis ac ac. Pellentesque eget sed ut tincidunt cras. Ipsum nec placerat vitae orci. Accumsan amet commodo montes, aenean velit gravida tristique montes. Porttitor velit cras venenatis, amet curabitur ultricies ac dictum.",
-    ceo: "Marrie James-CEO",
-    ca: " Limana Enterprises, CA",
-    headingTwo:
-      "Elementum risus cursus vehicula consectetur sapien ut tempor, venenatis turpis. Sed mauris enim.",
-    ceoTwo: "Ralph Edwards-CEO",
-
-    ceoThree: "Darrell Steward-Head",
+    alt: "Cute Girl 2",
   },
 ];
 export const RequestIt = [

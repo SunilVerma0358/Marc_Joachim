@@ -25,7 +25,7 @@ const Footer = () => {
                 height={90}
               />
             </div>
-            <p className="Font-Poppins font-normal text-base text-white text-center leading-[160%] pt-4 ">
+            <p className="font-Poppins font-normal text-base text-white text-center leading-[160%] pt-4 ">
               (c) {year} MARC JOACHIM HUBRICH
               <span className="block">All Rights Reserved</span>
             </p>
