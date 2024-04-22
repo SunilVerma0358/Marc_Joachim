@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { MyMapYourSectionOne, MyMapYourSectionTwo } from "./common/Helper";
 import ConsultationLink from "./common/ConsultationLink";
 
@@ -6,6 +7,16 @@ const YourFault = () => {
   return (
     <div className="pb-12 md:py-36 relative">
       <div className="container max-w-[1140px] 2xl:max-w-[1320px] ">
+        <div className="max-w-[409px]  absolute right-0 top-10 z-[-1] ">
+          {" "}
+          <Image
+            src="/assets/svg/Your.svg"
+            width={409}
+            height={207}
+            alt="your"
+            className="max-w-[200px] sm:max-w-[409px] w-full max-h-[200px] sm:max-h-[294px]"
+          />
+        </div>
         <div className=" flex items-center gap-2 md:inline-block md:absolute top-[-10%] lg:top-[-18%]  translate-x-3 py-5 md:py-0 ">
           <p className=" md:inline font-Poppins font-light text-lg sm:text-xl leading-[170%] vericaltext -rotate-90 md:rotate-180 md:-translate-x-4">
             MJH
