@@ -16,8 +16,8 @@ const MindSet = () => {
       id="testimonials"
       className="relative z-20 overflow-hidden pt-28 md:pt-60 pb-0 md:pb-20"
     >
-      <div className=" container max-w-[1140px] 2xl:max-w-[1320px] pb-12 ">
-        <div className=" inline-flex items-center gap-2 md:inline-block md:absolute right-[10%] top-[4%] xl:top-2  translate-x-6 py-5 md:py-0 ">
+      <div className="container max-w-[1140px] 2xl:max-w-[1320px] pb-12">
+        <div className=" inline-flex items-center gap-2 md:inline-block md:absolute right-[10%] top-[4%] xl:top-2 translate-x-6 py-5 md:py-0">
           <p className="md:inline font-Poppins font-light text-lg sm:text-xl leading-[170%] vericaltext -rotate-90 md:rotate-180 md:translate-x-3">
             MJH
           </p>
@@ -59,7 +59,7 @@ const MindSet = () => {
               className=" font-Helvet font-normal text-3xl md:text-5xl lg:text-custom-5xl leading-[120%]"
             >
               SEPARATION{" "}
-              <span className=" text-orangeYellow block">MINDSET</span>
+              <span className="text-orangeYellow block">MINDSET</span>
             </h2>
             <p className="font-Poppins font-normal text-sm sm:text-base leading-[160%] opacity-70 max-w-[480px] pt-3 sm:pt-5">
               There are 4 typical separation phases. The 4 phases are not always
@@ -69,7 +69,7 @@ const MindSet = () => {
               <ConsultationLink link="Book a non-binding initial consultation now" />
             </div>
           </div>
-          <div className=" w-full md:w-7/12 px-3 relative custom">
+          <div className="w-full md:w-7/12 px-3 relative custom">
             <Swiper
               modules={[EffectFade, Pagination, Autoplay, Navigation]}
               spaceBetween={0}
@@ -88,10 +88,10 @@ const MindSet = () => {
             >
               {MapSwiper.map((props, index) => (
                 <SwiperSlide key={index}>
-                  <div className=" w-full px-3 bg-blue relative z-[1] pb-12">
+                  <div className="w-full px-3 bg-blue relative z-[1] pb-12">
                     <div
                       data-aos="zoom-in-down"
-                      className=" flex flex-col justify-center min-h-[260px] sm:min-h-[448px] "
+                      className="flex flex-col justify-center min-h-[260px] sm:min-h-[448px]"
                     >
                       <p className="font-Poppins font-medium text-xl leading-[160%] text-white text-center">
                         {props.PharaOne}
@@ -103,7 +103,7 @@ const MindSet = () => {
                         <span className="block">{props.PharaSpanTwo}</span>
                       </p>
                     </div>
-                    <div className=" absolute bottom-0 right-0 z-[-1] ">
+                    <div className="absolute bottom-0 right-0 z-[-1]">
                       <Image
                         src="/assets/image/TargetImg.webp"
                         width={300}

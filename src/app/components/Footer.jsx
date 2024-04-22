@@ -25,7 +25,7 @@ const Footer = () => {
                 height={90}
               />
             </div>
-            <p className="font-Poppins font-normal text-base text-white text-center leading-[160%] pt-4 ">
+            <p className="font-Poppins font-normal text-base text-white text-center leading-[160%] pt-4">
               (c) {year} MARC JOACHIM HUBRICH
               <span className="block">All Rights Reserved</span>
             </p>
@@ -47,7 +47,7 @@ const Footer = () => {
               <a
                 href="https://twitter.com/i/flow/login?redirect_after_login=%2Fradialcode"
                 target="blank"
-                className=" duration-300 hover:-translate-y-2"
+                className="duration-300 hover:-translate-y-2"
               >
                 <Image
                   src="/assets/svg/Twitter.svg"
@@ -59,7 +59,7 @@ const Footer = () => {
               <a
                 href="https://www.email.com"
                 target="blank"
-                className=" duration-300 hover:-translate-y-2"
+                className="duration-300 hover:-translate-y-2"
               >
                 <Image
                   src="/assets/svg/mail.svg"
@@ -71,7 +71,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/radialcode/?hl=en"
                 target="blank"
-                className=" duration-300 hover:-translate-y-2"
+                className="duration-300 hover:-translate-y-2"
               >
                 <Image
                   src="/assets/svg/Insta.svg"

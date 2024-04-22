@@ -6,7 +6,7 @@ const ConsultationLink = (props) => {
         href="#"
         className="bg-LinearBlue hover:bg-LinearBlue2 group duration-300 ease-linear rounded-[63px] p-[1.7px]"
       >
-        <div className="bg-white flex items-center gap-1 rounded-[63px] px-2 py-1 sm:p-[5px_48px_5px_9px]  ">
+        <div className="bg-white flex items-center gap-1 rounded-[63px] px-2 py-1 sm:p-[5px_48px_5px_9px]">
           <span>
             <Image
               src="/assets/image/message.webp"

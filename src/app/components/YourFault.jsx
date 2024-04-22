@@ -17,11 +17,11 @@ const YourFault = () => {
             className="max-w-[200px] sm:max-w-[409px] w-full max-h-[200px] sm:max-h-[294px]"
           />
         </div>
-        <div className=" flex items-center gap-2 md:inline-block md:absolute top-[-10%] lg:top-[-18%]  translate-x-3 py-5 md:py-0 ">
-          <p className=" md:inline font-Poppins font-light text-lg sm:text-xl leading-[170%] vericaltext -rotate-90 md:rotate-180 md:-translate-x-4">
+        <div className="flex items-center gap-2 md:inline-block md:absolute top-[-10%] lg:top-[-18%] translate-x-3 py-5 md:py-0 ">
+          <p className="md:inline font-Poppins font-light text-lg sm:text-xl leading-[170%] vericaltext -rotate-90 md:rotate-180 md:-translate-x-4">
             MJH
           </p>
-          <div className=" border-b-2 border-b-orangeYellow md:border-l-2 md:border-l-orangeYellow w-20 sm:w-40 md:w-7 md:h-40 lg:h-72  md:mt-3"></div>
+          <div className="border-b-2 border-b-orangeYellow md:border-l-2 md:border-l-orangeYellow w-20 sm:w-40 md:w-7 md:h-40 lg:h-72  md:mt-3"></div>
           <div className="font-Helvet font-normal text-2xl leading-[128%] md:leading-[168%] md:translate-x-7 md:-translate-y-7 md:overflow-hidden flex md:inline-block">
             <p className="font-medium text-2xl sm:text-3xl md:text-custom-4xl  md:-rotate-90 md:inline-block ">
               01
@@ -29,9 +29,9 @@ const YourFault = () => {
             <p className="md:inline-block uppercase"> fault</p>
           </div>
         </div>
-        <div className=" flex flex-row flex-wrap -mx-3 items-center justify-between ">
+        <div className="flex flex-row flex-wrap -mx-3 items-center justify-between ">
           <div className="w-full sm:w-6/12 lg:w-7/12 px-3">
-            <div className="flex flex-col  sm:items-end justify-end ">
+            <div className="flex flex-col sm:items-end justify-end ">
               <div data-aos="zoom-in-down" className="text-start">
                 <p
                   className="font-Helvet font-normal text-5xl lg:text-6xl leading-[128%]
@@ -54,18 +54,18 @@ const YourFault = () => {
             </div>
           </div>
         </div>
-        <h2 className=" font-Helvet font-medium text-base sm:text-lg md:text-xl leading-[140%] text-center pt-7 sm:pt-10 md:pt-14 ">
+        <h2 className="font-Helvet font-semibold text-base sm:text-lg md:text-xl leading-[140%] capitalize  text-center pt-7 sm:pt-10 md:pt-14 ">
           How would you know when you are busy with completely different things
           at the moment:
         </h2>
       </div>
-      <div className="bg-[url('../../public/assets/image/fault.webp')] max-md:bg-cover bg-size bg-center  bg-no-repeat my-7 sm:my-10 md:my-14">
-        <div className=" container  max-w-[1140px] 2xl:max-w-[1320px] ">
+      <div className="bg-[url('../../public/assets/image/fault.webp')] max-md:bg-cover bg-size bg-center bg-no-repeat my-7 sm:my-10 md:my-14">
+        <div className="container max-w-[1140px] 2xl:max-w-[1320px] ">
           <div className=" flex flex-row flex-wrap -mx-auto md:justify-end">
             {MyMapYourSectionOne.map((props, index) => (
               <div
                 key={index}
-                className=" w-full sm:w-4/12 lg:w-3/12 px-3 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear "
+                className="w-full sm:w-4/12 lg:w-3/12 px-3 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear "
               >
                 <div className={`${props.class}`}>
                   <p
@@ -77,11 +77,11 @@ const YourFault = () => {
               </div>
             ))}
           </div>
-          <div className=" flex flex-row flex-wrap -mx-auto mt-6">
+          <div className="flex flex-row flex-wrap -mx-auto mt-6">
             {MyMapYourSectionTwo.map((props, index) => (
               <div
                 key={index}
-                className=" w-full sm:w-4/12 lg:w-3/12 px-3 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear    "
+                className="w-full sm:w-4/12 lg:w-3/12 px-3 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear    "
               >
                 <div className={`${props.class}`}>
                   <p
@@ -95,12 +95,12 @@ const YourFault = () => {
           </div>
         </div>
       </div>
-      <p className=" font-Poppins font-normal text-sm sm:text-base leading-[160%] text-center">
+      <p className="font-Poppins font-normal text-sm sm:text-base leading-[160%] text-center">
         {" "}
         You are not alone! Numerous women before you stood exactly at this
         point, where you are now.
       </p>
-      <div className="flex justify-center  pt-5">
+      <div className="flex justify-center pt-5">
         {" "}
         <ConsultationLink link="Book a non-binding initial consultation now" />
       </div>

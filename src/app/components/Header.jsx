@@ -41,7 +41,7 @@ const Header = () => {
               </p>
               <div className="flex items-center gap-4 pt-8">
                 <ConsultationLink link="Book a non-binding initial consultation now" />
-                <a href="#" className=" animate-Phone">
+                <a href="tel:0120219873" className=" animate-Phone">
                   <Phone />
                 </a>
               </div>

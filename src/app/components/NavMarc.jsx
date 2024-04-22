@@ -15,7 +15,7 @@ const NavMarc = () => {
   }
 
   return (
-    <nav className="container max-w-[1140px] 2xl:max-w-[1320px] flex justify-between items-center pt-6 ">
+    <nav className="container max-w-[1140px] 2xl:max-w-[1320px] flex justify-between items-center pt-6">
       <a href="#">
         <Image
           src="/assets/image/Logo.webp"
@@ -43,21 +43,21 @@ const NavMarc = () => {
           ))}
           <a
             href="#"
-            className=" bg-LinearBlue hover:bg-LinearBlue2 font-Inter font-medium text-base text-white leading-[150%] py-4 px-7 "
+            className="bg-LinearBlue hover:bg-LinearBlue2 font-Inter font-medium text-base text-white leading-[150%] py-4 px-7"
           >
             Book consultation now
           </a>
         </ul>
         <div onClick={setopen}>
           {first ? (
-            <div className="flex sm:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer  ">
+            <div className="flex sm:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer">
               <span className=" bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 rotate-[53deg] -bottom-[11px]"></span>
               <span className=" bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300 -rotate-[56deg] bottom-[8px]"></span>
             </div>
           ) : (
-            <div className=" flex sm:hidden flex-col  z-50 justify-between w-[24px] h-[24px] cursor-pointer relative ">
+            <div className=" flex sm:hidden flex-col  z-50 justify-between w-[24px] h-[24px] cursor-pointer relative">
               <span className=" bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
-              <span className=" bg-black  w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
+              <span className=" bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
               <span className=" bg-black w-full h-[2px] relative z-50 mb-[3px] transition-all ease-linear duration-300"></span>
             </div>
           )}

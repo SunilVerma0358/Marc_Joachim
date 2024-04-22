@@ -3,8 +3,8 @@ import { MapCard } from "./common/Helper";
 
 const WhatYou = () => {
   return (
-    <div className=" relative pt-12 md:pt-0  ">
-      <div className=" inline-flex items-center gap-2 md:inline-block md:absolute top-[-22%] lg:top-[-25%] right-[5%] xl:right-[12%]  translate-x-6  md:py-0 ">
+    <div className="relative pt-12 md:pt-0">
+      <div className="inline-flex items-center gap-2 md:inline-block md:absolute top-[-22%] lg:top-[-25%] right-[5%] xl:right-[12%] translate-x-6 md:py-0 ">
         <p className="md:inline font-Poppins font-light text-lg sm:text-xl leading-[170%] vericaltext -rotate-90 md:rotate-180 md:translate-x-3">
           MJH
         </p>
@@ -31,7 +31,7 @@ const WhatYou = () => {
             alt="flowerimgOne"
           />
         </div>
-        <div className="max-w-[150px] sm:max-w-[313px] absolute left-[-20%] sm:left-[-5%] lg:left-[-12%] bottom-[10%] z-[-1]">
+        <div className="max-w-[150px] sm:max-w-[313px] absolute left-[-20%] sm:left-[-5%] lg:left-[-12%] bottom-[10%] xl:bottom-0 z-[-1]">
           <Image
             src="/assets/image/FlowerImg.webp"
             width={313}
@@ -41,10 +41,10 @@ const WhatYou = () => {
           />
         </div>
         <div className="container max-w-[1140px] 2xl:max-w-[1320px]">
-          <div className=" inline-block absolute bottom-[-1%] sm:bottom-[-4%] md:bottom-0 translate-x-1 py-5 md:py-0 ">
-            <div className=" border-b-2 border-b-orangeYellow border-l-2 border-l-orangeYellow  w-7 h-[660px]  sm:h-[480px] md:h-[710px] lg:h-[505px]  mt-3"></div>
-            <div className="font-Helvet font-normal text-2xl leading-[128%] sm:leading-[170%] translate-x-7 -translate-y-7  inline-block">
-              <p className="font-medium text-2xl sm:text-3xl md:text-custom-4xl  -rotate-90 inline-block ">
+          <div className="inline-block absolute bottom-[-1%] sm:bottom-[-4%] md:bottom-0 translate-x-1 py-5 md:py-0">
+            <div className="border-b-2 border-b-orangeYellow border-l-2 border-l-orangeYellow w-7 h-[660px] sm:h-[480px] md:h-[710px] lg:h-[505px] mt-3"></div>
+            <div className="font-Helvet font-normal text-2xl leading-[128%] sm:leading-[170%] translate-x-7 -translate-y-7 inline-block">
+              <p className="font-medium text-2xl sm:text-3xl md:text-custom-4xl -rotate-90 inline-block ">
                 03
               </p>
               <p className="inline-block uppercase"> goal</p>
@@ -77,14 +77,14 @@ const WhatYou = () => {
               </div>
             </div>
             <div data-aos="zoom-in-down" className="w-full sm:w-6/12 px-3">
-              <p className=" font-Poppins font-normal text-sm sm:text-base leading-[160%] max-w-[383px] duration-300 hover:text-white relative before:absolute before:h-full before:w-[2px] before:left-[-6px] lg:before:-left-4 before:top-1 before:bg-[#9800B0] before:hover:w-full before:duration-300 ease-linear before:hover:-z-30">
+              <p className=" font-Poppins font-normal text-sm sm:text-base leading-[160%] max-w-[383px] duration-300 hover:text-white relative before:absolute before:h-[90%] before:w-[2px] before:left-[-6px] lg:before:-left-4 before:top-1 before:bg-[#9800B0] before:hover:w-full before:duration-300 ease-linear before:hover:-z-30">
                 I will show you which steps are necessary for you to finally
                 successfully let go of your EX. And I will support you to look
                 confidently into your new future.
               </p>
             </div>
           </div>
-          <p className="font-Helvet font-semibold text-base sm:text-lg md:text-xl leading-[140%] text-center pt-6 sm:pt-9 md:pt-12">
+          <p className="font-Helvet font-semibold text-base sm:text-lg md:text-xl leading-[140%] capitalize text-center pt-6 sm:pt-9 md:pt-12">
             In a 1:1 live coaching session, we will clarify the following
             questions in particular:
           </p>
