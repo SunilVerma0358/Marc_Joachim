@@ -28,7 +28,7 @@ const NavMarc = () => {
         <ul
           className={`${
             first ? "right-0" : "right-[-100%]"
-          } flex flex-col sm:flex-row  gap-6 sm:gap-7 md:gap-custom-4xl max-[1023px]:w-full h-full fixed  bg-opacity-80 bg-white top-0 items-center justify-center sm:h-unset sm:static sm:bg-transparent sm:justify-end z-40 transition-all ease-linear duration-300 `}
+          } flex flex-col sm:flex-row  gap-6 sm:gap-7 md:gap-custom-4xl max-[1023px]:w-full h-full fixed bg-white top-0 items-center justify-center sm:h-unset sm:static sm:bg-transparent sm:justify-end z-40 transition-all ease-linear duration-300 `}
         >
           {MyNavArry.map((event, index) => (
             <li key={index}>
