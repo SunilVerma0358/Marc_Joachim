@@ -65,7 +65,7 @@ const YourFault = () => {
             {MyMapYourSectionOne.map((props, index) => (
               <div
                 key={index}
-                className="w-full sm:w-4/12 lg:w-3/12 px-3 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear "
+                className="w-full sm:w-4/12 lg:w-3/12 px-3 mb-4 sm:mb-0 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear "
               >
                 <div className={`${props.class}`}>
                   <p
@@ -77,11 +77,11 @@ const YourFault = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-row flex-wrap -mx-auto mt-6">
+          <div className="flex flex-row flex-wrap -mx-auto sm:mt-6">
             {MyMapYourSectionTwo.map((props, index) => (
               <div
                 key={index}
-                className="w-full sm:w-4/12 lg:w-3/12 px-3 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear    "
+                className="w-full sm:w-4/12 lg:w-3/12 px-3 mt-4 sm:mt-0 bg-[#003E92] bg-opacity-[30%] relative inset-0 hover:bg-opacity-100 duration-300 ease-linear    "
               >
                 <div className={`${props.class}`}>
                   <p

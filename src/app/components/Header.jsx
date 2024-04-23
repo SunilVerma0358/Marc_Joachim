@@ -5,7 +5,7 @@ import ConsultationLink from "./common/ConsultationLink";
 const Header = () => {
   return (
     <div
-      className="h-screen flex flex-col bg-cover
+      className="min-h-[820px] lg:h-screen flex flex-col bg-cover
       sm:bg-size bg-center max-md:bg-[url('../../public/assets/image/HeroImg.webp')] md:bg-[url('../../public/assets/image/HeroMainImg.webp')] bg-no-repeat"
     >
       {" "}
