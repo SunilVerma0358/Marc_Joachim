@@ -62,7 +62,7 @@ const Request = () => {
               <div
                 key={index}
                 data-aos="zoom-in-down"
-                className="w-full sm:w-4/12 lg:w-3/12 px-3  mt-4 sm:mt-0 bg-white bg-opacity-[25%] relative inset-0 hover:bg-[#003E92] duration-300 ease-linear"
+                className="w-full sm:w-4/12 lg:w-3/12 px-3 mt-4 sm:mt-0 bg-white bg-opacity-[25%] relative inset-0 hover:bg-[#003E92] duration-300 ease-linear"
               >
                 <div
                   className={`${props.class} p-[32px_24px] lg:p-[61px_38.5px]`}

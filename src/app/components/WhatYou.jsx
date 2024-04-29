@@ -64,7 +64,7 @@ const WhatYou = () => {
                 </h2>
                 <div
                   data-aos="zoom-in-down"
-                  className=" max-w-[150px] lg:max-w-[224px]"
+                  className=" max-w-[150px] lg:max-w-[224px] mx-auto"
                 >
                   <Image
                     src="/assets/image/FlowerImg.webp"
